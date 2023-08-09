@@ -25,6 +25,7 @@ nav {
 .menu li {
   display: inline-flex;
   padding-right: 10px;
+  text-decoration: underline;
 }
 
 .logo {
@@ -40,4 +41,124 @@ nav {
   text-align: right;
   margin-right: 0px;
   text-decoration: underline;
+  }
+
+/*sizing*/
+.container {
+  margin: 0 auto;
+}
+
+.main {
+    background-color: black;
+}
+
+.spacer {
+  max-width: 1200px;
+  margin: auto;
+}
+/*mission statement*/
+
+.mission {
+  position: relative;
+  top: 69px;
+  height: 700px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content:center;
+  margin: auto auto 100px auto;
+  background-image: url("img-mission-background.jpg");
+}
+.mission span {
+  width: auto;
+}
+.mission .statement {
+  background-color: #000000;
+  text-align: center;
+  margin-bottom: -30px;
+  padding: 10px;
+  opacity: 0.9;
+}
+/* Tea of the Month */
+
+.categories {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1000px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+.categories h2 {
+  margin-bottom: -10px;
+}
+
+.teashots {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.teashots img {
+  width: 300px;
+  height: 200px;
+  flex-basis: calc(33.33% - 200px);
+}
+
+.teashots p {
+  margin: 10px auto;
+}
+
+/*locations*/
+.locations {
+  height: 500px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content:center;
+  margin: auto auto auto auto;
+  background-image: url("img-locations-background.jpg");
+}
+
+.locations h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.locations-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.containers-address {
+    background-color: #000000;
+    min-height: 250px;
+    width: 300px;
+    text-align: center;
+    opacity: 1;
+}
+
+.containers p {
+    padding: 8px;
+}
+
+/* The Tea Cozy Contact */
+
+.contact {
+    height: 200px;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -50px;
 }
