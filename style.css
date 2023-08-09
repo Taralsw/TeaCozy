@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  font-family: 'Helvetica', 'sans-serif';
+  font-size: 22px;
+  color: rgba(255, 246, 240,0.9);
+  width: auto;
+  opacity: 0.9;
+}
+
+nav {
+  position: fixed;
+  background-color: #000000;
+  border-bottom: 1px solid seashell;
+  z-index: 20;
+}
+
+#navigator {
+  display: grid;
+  height: 69px;
+  grid-template-columns: 1fr 10fr;
+  align-items: center;
+  margin: auto 10px;
+}
+
+.menu li {
+  display: inline-flex;
+  padding-right: 10px;
+}
+
+.logo {
+  opacity: 0.9;
+  height: 50px;
+  grid-column: 1;
+  text-align: center;
+  margin-left: 10px;
+  }
+  
+.menu {
+  grid-column: 2/span9;
+  text-align: right;
+  margin-right: 0px;
+  text-decoration: underline;
+}
